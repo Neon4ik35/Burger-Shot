@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:wght@400;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color:#B32127;
+}
+a:hover {
+    text-decoration: underline;
+}
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+li {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 48px;
+    color: #000000;
+}
+body {
+    background-color: #FDFCA6;
+}
+.head-content {
+    position: relative;
+    max-width: 100%;
+}
+.bg-head {
+    position: absolute;
+    z-index: -1;
+    left: 9px;
+    top: 15px;
+    width: 99%;
+    max-width: 100%;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12em;
+    max-height: 100%;
+    max-width: 100%;
+}
+.head-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1em;
+    font-family:"Lobster";
+    font-weight: 400;
+    font-size: 2em;
+    color: #B32127;
+    margin-right: 1em;
+}
+#menu-head {
+    margin-right: 9.8em;
+}
+.burger-shot-logo-head {
+    position: absolute;
+    padding-left: 19%;
+    padding-bottom: 3.75em;
+    margin-top: 3.3em;
+    z-index: -1;
+}
+.burger-shot-zal {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    max-height: 100%;
+    margin-bottom: 1em;
+    z-index: -1;
+    margin-top: 9em;
+}
+.line-horizontal {
+    margin-bottom: 3em;
+}
+.menu-bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1px solid #F3A333;
+    margin-bottom: 4em;
+    background-image: url(img/menu-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.eat {
+    display: flex;
+    flex-direction: row;
+    padding-right: 4em;
+    margin-bottom: 1em;
+}
+#eat {
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu-h3 {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 85px;
+    color: #FFFE68;
+    text-shadow: 0.015em 0.015em 0 #000000;
+    margin-bottom: 1em;
+}
+.menu-zg {
+    font-family: "Lobster";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 120px;
+    color: #B32127;
+    text-shadow: 0.015em 0.015em 0 #000000;
+    margin-bottom: 0.5em;
+}
+.line-vertical {
+    height: 30em;
+    width: 0.3em;
+}
+.we {
+    position: relative;
+}
+.logos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 4em;
+}
+.copyright {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+    padding-left: 1em;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8BA1C;
+    width: 100%;
+    max-width: 100%;
+}
+.photography {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photos {
+    margin-top: 5em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    width: 100%;
+    max-width: 100%;
+}
+.photo-head {
+    position: relative;
+}
+.photo {
+    margin-right: 2em;
+}
+.photo-bg {
+    position:absolute;
+    background: #F3A333;
+    border-radius: 2.5em;
+    z-index: -1;
+    bottom: 4em;
+    right: 0.1em;
+}
+.photography h2 {
+    font-family: "Lobster";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6em;
+    line-height: 3em;
+    text-align: center;
+    color: #B32127;
+    padding-right: 0.4em;
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
+.navigation h2 {
+    font-family: "Lobster";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6em;
+    line-height: 3em;
+    text-align: center;
+    color: #B32127;
+}
+.photo-bg-map {
+    position: absolute;
+    z-index: -1;
+    bottom: 4em;
+    left: -2.8em;
+}
+.map {
+    width: 99.5%;
+    max-width: 100%;
+}
